@@ -2,10 +2,24 @@ body{
 
 }
 
-.footer{
-	
+.fold1{
+	padding-top: 60px;
 }
 
-.fold1{
-	padding-top: 70px;
+.footer{
+	background-color: gray;
+	padding: 20px;
 }
+
+.inputname{
+	width: 270px;
+}
+.inputemail{
+	width: 200px;
+}
+.inputconsulta{
+	width: 270px;
+	height: 100px;
+}
+
+
