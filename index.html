@@ -3,7 +3,9 @@
 
 <head>
 	<meta charset="utf-8">
-	<title> Fundación Niño y Cáncer | Principal </title>
+	<title> Fundación Niños y Cáncer | Principal </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
 	<!-- Latest compiled and minified CSS --> 
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> 
 
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	  <div class="container-fluid">
 
 	    <!-- BRAND -->
@@ -32,45 +34,73 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Brand</a>
+	      <a class="navbar-brand">Fundación Niño y Cáncer</a>
 	    </div>
 
 	    <!-- LINKS Y DROPDOWN IZQUIERDA -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Link</a></li>
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	            <li class="divider"></li>
-	            <li><a href="#">One more separated link</a></li>
-	          </ul>
-	        </li>
-	      </ul>
-	      
-	      <!-- LINK Y DROPDOWN DERECHA -->
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Link</a></li>
-	        <li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="#">Action</a></li>
-	            <li><a href="#">Another action</a></li>
-	            <li><a href="#">Something else here</a></li>
-	            <li class="divider"></li>
-	            <li><a href="#">Separated link</a></li>
-	          </ul>
-	        </li>
-	      </ul>	      
+	      	<li class="active"><a href="index.html"> Inicio </a></li>
+	        <li><a href="nosotros.html">Nosotros</a></li>
+	        <li><a href="noticias.html">Noticias</a></li>
+	      </ul> 
 	    </div><!-- /.navbar-collapse -->
+
 	  </div><!-- /.container-fluid -->
 	</nav>
+
+	<div class="row container fold1">
+		<h1>Banner Principal</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+	<div class="row container noticias">
+		<h1>Thumbnails con Noticias Relevantes</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div class="row footer">
+		<div class="container">
+			<div class="col-md-6">
+				
+				<h1>CONTACTO</h1>
+
+				<div class="container">
+					<h4>Teléfono: 22170821 - 22170811</h4>
+					<h4>E-mail: fundacion@ninoycancer.cl</h4>
+					<h4>Facebook: @ninoycancer (Fundación Niño y Cáncer) </h4>
+				</div>
+
+				<div class="container formulario">
+					<h4>Nombre y Apellido</h4>
+					<input type="text" value="Ingrese nombre y apellido..." class="inputname">
+					<h4>Correo Electrónico</h4>
+					<input type="text" value="Ingrese su email..." class="inputemail">
+					<h4>Consulta</h4>
+					<textarea placeholder="ingrese su consulta..." class="inputconsulta"></textarea>
+					<div>
+					<button type="button" style="border-radius: 3px;">Enviar</button>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-6 embed-responsive embed-responsive-16by9">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6283871%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1sen!2scl!4v1527439567865" width="600" height="450" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item"></iframe>
+			</div>
+		</div>
+	</div>
+
 </body>
 
 </html>
