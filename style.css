@@ -9,6 +9,7 @@ body{
 .footer{
 	background-color: gray;
 	padding: 20px;
+	margin-top: 20px;
 }
 
 .inputname{
@@ -21,5 +22,4 @@ body{
 	width: 270px;
 	height: 100px;
 }
-
 
