@@ -3,7 +3,7 @@ body{
 }
 
 .fold1{
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 .footer{
@@ -23,3 +23,25 @@ body{
 	height: 100px;
 }
 
+.fundacion_logo{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.jumbotron{
+	background-color: white !important;
+}
+
+.navbar-brand{
+	background-color: #71d5f5;
+	color: white;
+}
+
+.button{
+	border-radius: 3px
+}
+
+.map{
+	margin-top: 10px;
+}
